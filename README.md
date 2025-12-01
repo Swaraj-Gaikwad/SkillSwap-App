@@ -144,7 +144,7 @@ VITE_API_URL=http://localhost:5000
 
 1. **Clone and navigate to the project:**
    ```cmd
-   cd c:\Users\SWARAJ\Projects\SkillSwap-App
+   cd SkillSwap-App
    ```
 
 2. **Set up Backend:**
@@ -162,7 +162,7 @@ VITE_API_URL=http://localhost:5000
 
 3. **Set up Frontend (in a new terminal):**
    ```cmd
-   cd c:\Users\SWARAJ\Projects\SkillSwap-App\frontend
+   cd SkillSwap-App\frontend
    copy .env.example .env
    npm install
    npm run dev
@@ -171,7 +171,7 @@ VITE_API_URL=http://localhost:5000
 
 4. **Seed the database (optional but recommended):**
    ```cmd
-   cd c:\Users\SWARAJ\Projects\SkillSwap-App\backend
+   SkillSwap-App\backend
    npm run seed
    ```
    This creates demo users (all with password: `password123`):
